@@ -1,0 +1,94 @@
+{
+  "name": "onedarkish",
+  "dark": true,
+  "author": "tonyage",
+  "editorScheme": "/theme/onedarkish.xml",
+  "colors": {
+    "grayPrimary": "#272727",
+    "graySecondary": "#343434",
+    "grayTertiary": "#404040",
+    "green": "#98c370",
+    "red": "#e06c75",
+    "yellow": "#e5c07b",
+    "blue:": "#61afef",
+    "magenta": "#c678dd",
+    "cyan": "#56b6c2",
+    "white": "#c5c8c"
+  },
+
+  "ui": {
+    "*": {
+      "background": "grayPrimary",
+      "disabledBackground": "grayPrimary",
+      "inactiveBackground": "graySecondary",
+      "selectionInactiveBackground": "blue",
+      "lightSelectionBackground": "white",
+      "lightSelectionInactiveBackground": "graySecondary",
+      "separatorColor": "grayPrimary",
+      "borderColor": "grayPrimary"
+    },
+    "Button": {
+      "startBackground": "graySecondary",
+      "endBackground": "graySecondary",
+      "startBorderColor": "graySecondary",
+      "endBorderColor": "graySecondary"
+    },
+
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "graySecondary",
+        "selectedForeground": "green"
+      }
+    },
+
+    "TabbedPane": {
+      "underlineColor": "blue",
+      "background": "grayTertiary"
+    },
+
+    "ActionButton": {
+      "hoverBackground": "graySecondary",
+      "hoverBorderColor": "graySecondary",
+      "pressedBackground": "grayTertiary",
+      "pressedBorderColor": "grayTertiary"
+    },
+
+    "ProgressBar": {
+      "trackColor": "grayTertiary",
+      "progressColor": "cyan",
+      "indeterminateStartColor": "cyan",
+      "indeterminateEndColor": "green",
+      "failedColor": "red",
+      "failedEndColor": "red"
+    },
+
+    "ToolWindow": {
+      "HeaderTab": {
+        "background": "graySecondary",
+        "inactiveBackground": "grayTertiary"
+      }
+    },
+
+    "EditorTabs": {
+      "background": "grayPrimary",
+      "underlineColor": "blue",
+      "underlinedTabBackground": "grayTertiary"
+    },
+
+    "Tree": {
+      "selectionBackground": "blue",
+      "modifiedItemForeground": "green",
+      "rowHeight": 20
+    },
+
+    "icons": {
+      "ColorPalette": {
+        "Checkbox.Background.Default.Dark": "#1a1a1a",
+        "Checkbox.Border.Default.Dark": "grayTertiary",
+        "Checkbox.Focus.Wide.Dark": "blue",
+        "Checkbox.Background.Disabled.Dark": "#1a1a1a",
+        "Checkbox.Border.Disabled.Dark": "graySecondary"
+      }
+    }
+  }
+}
