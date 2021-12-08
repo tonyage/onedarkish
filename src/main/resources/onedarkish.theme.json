@@ -4,46 +4,47 @@
   "author": "tonyage",
   "editorScheme": "/theme/onedarkish.xml",
   "colors": {
+    "grayDark": "#1a1a1a",
     "grayPrimary": "#272727",
     "graySecondary": "#343434",
     "grayTertiary": "#404040",
     "green": "#98c370",
     "red": "#e06c75",
     "yellow": "#e5c07b",
-    "blue:": "#61afef",
+    "blue": "#61afef",
     "magenta": "#c678dd",
     "cyan": "#56b6c2",
-    "white": "#c5c8c"
+    "white": "#c5c8c6",
+    "gray": "#abb2bf",
+    "error": "#f44747",
+    "vividCyan": "#2bbac5",
+    "vividGreen": "#89ca78",
+    "lightWhite": "#bbbbbb",
+    "vividMagenta": "#d55fde",
+    "vividYellow": "#d19a66",
+    "backgroundColor": "#21252b"
   },
 
   "ui": {
     "*": {
       "background": "grayPrimary",
+      "foreground": "gray",
+
       "disabledBackground": "grayPrimary",
-      "inactiveBackground": "graySecondary",
-      "selectionInactiveBackground": "blue",
-      "lightSelectionBackground": "white",
-      "lightSelectionInactiveBackground": "graySecondary",
-      "separatorColor": "grayPrimary",
-      "borderColor": "grayPrimary"
-    },
-    "Button": {
-      "startBackground": "graySecondary",
-      "endBackground": "graySecondary",
-      "startBorderColor": "graySecondary",
-      "endBorderColor": "graySecondary"
-    },
+      "inactiveBackground": "grayPrimary",
 
-    "SearchEverywhere": {
-      "Tab": {
-        "selectedBackground": "graySecondary",
-        "selectedForeground": "green"
-      }
-    },
+      "selectionInactiveBackground": "graySecondary",
+      "selectionBackgroundInactive": "graySecondary",
 
-    "TabbedPane": {
-      "underlineColor": "blue",
-      "background": "grayTertiary"
+      "acceleratorForeground": "white",
+      "acceleratorSelectionForeground": "white",
+
+      "separatorColor": "grayTertiary",
+
+      "borderColor": "grayTertiary",
+      "disableBorderColor": "grayTertiary",
+      "focusColor": "grayPrimary",
+      "focusBorderColor": "green"
     },
 
     "ActionButton": {
@@ -51,6 +52,73 @@
       "hoverBorderColor": "graySecondary",
       "pressedBackground": "grayTertiary",
       "pressedBorderColor": "grayTertiary"
+    },
+
+    "Borders": {
+      "color": "grayTertiary",
+      "ContrastBorderColor": "grayTertiary"
+    },
+
+    "CompletionPopup":  {
+      "matchForeground": "blue"
+    },
+
+    "Component": {
+      "errorFocusColor": "#802d43",
+      "inactiveErrorFocusColor": "#522530",
+      "warningFocusColor": "#8c812b",
+      "inactiveWarningFocusColor": "#47441f"
+    },
+
+    "DefaultTabs": {
+      "underlineColor": "#61afef",
+      "inactiveUnderlineColor": "#4269b9",
+      "hoverBackground": "grayDark"
+    },
+
+    "DragAndDrop": {
+      "areaForeground": "gray",
+      "areaBackground": "graySecondary",
+      "areaBorderColor": "grayTertiary"
+    },
+
+    "Button": {
+      "startBackground": "graySecondary",
+      "endBackground": "graySecondary",
+      "startBorderColor": "graySecondary",
+      "endBorderColor": "graySecondary"
+    },
+
+    "Editor": {
+      "background": "grayDark",
+      "foreground": "white",
+      "shortcutForeground": "cyan"
+    },
+
+    "EditorPane.inactiveBackground": "#282c34",
+
+    "EditorTabs": {
+      "background": "grayPrimary",
+      "underlineColor": "blue",
+      "underlinedTabBackground": "grayTertiary"
+    },
+
+    "FileColor": {
+      "Yellow": "#3d3026",
+      "Green": "#293a24",
+      "Blue": "#24354f",
+      "Violet": "#2d1942",
+      "Orange": "#3d3026",
+      "Rose": "#3d1e2b"
+    },
+
+    "Panel.background": "grayPrimary",
+
+    "ParameterInfo": {
+      "background": "graySecondary",
+      "foreground": "gray",
+      "infoForeground": "grayTertiary",
+      "currentParameterForeground": "white"
     },
 
     "ProgressBar": {
@@ -62,28 +130,43 @@
       "failedEndColor": "red"
     },
 
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "graySecondary",
+        "selectedForeground": "green"
+      },
+    },
+
+    "SearchMatch": {
+      "startBackground": "blue",
+      "endBackground": "blue"
+    },
+
+    "Settings.Spotlight.borderColor": "blue",
+
+    "SidePanel.background": "grayPrimary",
+
+    "TabbedPane": {
+      "underlineColor": "blue",
+      "contentAreaColor": "graySecondary",
+      "hoverColor": "grayTertiary"
+    },
+
     "ToolWindow": {
       "HeaderTab": {
-        "background": "graySecondary",
-        "inactiveBackground": "grayTertiary"
+        "hoverBackground": "grayTertiary",
+        "hoverInactiveBackground": "graySecondary"
       }
     },
 
-    "EditorTabs": {
-      "background": "grayPrimary",
-      "underlineColor": "blue",
-      "underlinedTabBackground": "grayTertiary"
-    },
-
     "Tree": {
-      "selectionBackground": "blue",
       "modifiedItemForeground": "green",
       "rowHeight": 20
     },
 
     "icons": {
       "ColorPalette": {
-        "Checkbox.Background.Default.Dark": "#1a1a1a",
+        "Checkbox.Background.Default.Dark": "grayDark",
         "Checkbox.Border.Default.Dark": "grayTertiary",
         "Checkbox.Focus.Wide.Dark": "blue",
         "Checkbox.Background.Disabled.Dark": "#1a1a1a",
