@@ -79,7 +79,7 @@
     "DragAndDrop": {
       "areaForeground": "gray",
       "areaBackground": "graySecondary",
-      "areaBorderColor": "grayTertiary"
+      "borderColor": "grayTertiary"
     },
 
     "Button": {
