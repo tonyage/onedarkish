@@ -1,4 +1,4 @@
-<scheme name="onedarkish" version="142" parent_scheme="Default">
+<scheme name="onedarkish" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="created">2021-12-05T02:53:56</property>
         <property name="ide">AndroidStudio</property>
